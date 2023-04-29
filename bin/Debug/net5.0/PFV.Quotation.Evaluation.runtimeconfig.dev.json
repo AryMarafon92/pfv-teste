@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Wytor\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Wytor\\.nuget\\packages"
+    ]
+  }
+}
