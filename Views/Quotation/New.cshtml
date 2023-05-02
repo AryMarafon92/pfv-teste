@@ -27,7 +27,7 @@
 
 </head>
 
-<body data-layout="horizontal" style="background-color: #fff !important;">
+<body data-layout="horizontal" style="background-color: #fff !important;background: url('/images/bg-cotation.png') no-repeat;">
     <div id="wrapper">
         <div class="container-fluid" style="margin-top: 15px !important;">
             <!-- loading -->
@@ -38,23 +38,23 @@
             </div>
 
             <div class="row justify-content-center">
-                <div class="col-md-8 col-lg-6 col-xl-6">
+                <div class="col-md-8 col-lg-4 col-xl-4">
                     <div>
-                        <div class="text-center mb-4">
+                        <div class="text-center mb-4 fade-in-logo">
                             <a href="https://aprogressiva.com.br/">
                                 <span><img src="~/images/logo.png" alt="" height="100"></span>
                             </a>
                         </div>
 
                         <div class="row" id="div-associated">
-                            <div class="col-xl-12 text-center">
-                                <h3>Dados para Cotaçãos</h3>
+                            <div class="col-xl-12 text-center title-animation">
+                                <h3>Dados para Cotação</h3>
                             </div>
-                            <div class="col-xl-12">
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="AssociatedName">Nome<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
-                                        <input type="text" id="AssociatedName" class="form-control" required>
+                            <div class="col-xl-12 input-block">
+                                <div class="form-group row mb-1">
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="AssociatedName">Nome<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1">
+                                        <input type="text" id="AssociatedName" class="form-control text-animation " required>
                                     </div>
                                 </div>
                                 @*<div class="form-group row">
@@ -63,16 +63,16 @@
                                             <input type="text" id="AssociatedDocument" class="form-control">
                                         </div>
                                     </div>*@
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="AssociatedEmail">E-mail<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
-                                        <input type="text" id="AssociatedEmail" class="form-control" required>
+                                <div class="form-group row  mb-1">
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="AssociatedEmail">E-mail<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1">
+                                        <input type="text" id="AssociatedEmail" class="form-control text-animation " required>
                                     </div>
                                 </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="AssociatedPhoneNumber">Telefone<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
-                                        <input type="text" id="AssociatedPhoneNumber" class="form-control" data-toggle="input-mask" data-mask-format="(00) 00000-0000" required>
+                                <div class="form-group row  mb-1">
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="AssociatedPhoneNumber">Telefone<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1">
+                                        <input type="text" id="AssociatedPhoneNumber" class="form-control text-animation " data-toggle="input-mask" data-mask-format="(00) 00000-0000" required>
                                     </div>
                                 </div>
 
@@ -92,9 +92,9 @@
                                     </div>*@
 
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="StateId">UF<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
-                                        <select class="form-control select2 select2-hidden-accessible" id="StateId" required>
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="StateId">UF<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1 form-select text-animation">
+                                        <select class="form-control select2 select2-hidden-accessible " id="StateId" required>
                                             <option value="" data-select2-id="3">Selecione a UF</option>
                                             <option value="1" data-select2-id="21">AC</option>
                                             <option value="2" data-select2-id="22">AL</option>
@@ -130,8 +130,8 @@
 
 
                             </div>
-                            <div class="col-xl-12">
-                                <div class="form-group text-right mb-0">
+                            <div class="col-xl-10 offset-1">
+                                <div class="form-group btn-animation text-right mb-0">
                                     <button id="associated-next" class="btn btn-info btn-rounded waves-effect waves-light" type="button" disabled>
                                         Continuar
                                     </button>
@@ -146,24 +146,24 @@
 
 
 
-                            <div class="col-xl-12">
+                            <div class="col-xl-12 input-block input-block-2">
                                 <div class="form-group row">
-                                    <label class="col-8 col-md-6 col-xl-3 col-form-label" for="IsApp">Você é Motorista de Aplicativo? <span class="text-danger">*</span></label>
-                                    <div class="col-4 col-md-6 col-xl-9 switchery-demo">
-                                        <input type="checkbox" id="IsApp" value="true" data-plugin="switchery" data-color="green" data-secondary-color="red" data-size="small" />
+                                    <label class="col-5 col-md-6 col-xl-4 offset-xl-1 col-form-label text-animation" for="IsApp">Você é Motorista de Aplicativo? <span class="text-danger">*</span></label>
+                                    <div class="col-6 col-md-6 col-xl-7 switchery-demo text-animation">
+                                        <input type="checkbox" id="IsApp" value="true" data-plugin="switchery" data-color="#22367e" data-secondary-color="#8493c9" data-size="small" />
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="VehiclePlate">Placa<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
-                                        <input type="text" id="VehiclePlate" class="form-control text-uppercase" maxlength="8" required>
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="VehiclePlate">Placa<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1">
+                                        <input type="text" id="VehiclePlate" class="form-control text-uppercase text-animation" maxlength="8" required>
                                     </div>
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="VehicleBrandId">Marca<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="VehicleBrandId">Marca<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1 form-select text-animation">
                                         <select class="form-control select2 select2-hidden-accessible" id="VehicleBrandId" required>
                                             <option value="" data-select2-id="6">Selecione a Marca</option>
                                             <option value="46" data-select2-id="1364">ACURA</option>
@@ -187,8 +187,8 @@
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="VehicleYear">Ano Modelo<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="VehicleYear">Ano Modelo<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1 form-select text-animation">
                                         <select class="form-control select2 select2-hidden-accessible" id="VehicleYear" required>
                                             <option value="" data-select2-id="5">Selecione o Ano</option>
                                             <option value="2005" data-select2-id="902">2005</option>
@@ -211,8 +211,8 @@
                                 </div>
 
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label" for="VehicleModelId">Modelo<span class="text-danger">*</span></label>
-                                    <div class="col-md-9">
+                                    <label class="col-md-10 offset-1 col-form-label text-animation" for="VehicleModelId">Modelo<span class="text-danger">*</span></label>
+                                    <div class="col-md-10 offset-1 form-select text-animation">
                                         <select class="form-control select2 select2-hidden-accessible" id="VehicleModelId" required>
                                             <option value="" data-select2-id="4">Selecione o Modelo</option>
                                             <option value="66" data-select2-id="6112">ROVER</option>
@@ -280,14 +280,14 @@
                             </div>
                             <div class="col-xl-12">
                                 <div class="row">
-                                    <div class="col-md-3 col-xl-6 col-6 col-sm-2">
+                                    <div class="col-md-3 col-xl-5 offset-xl-1 col-6 col-sm-2">
                                         <div class="form-group text-left mb-0">
                                             <button id="vehicle-back" class="btn btn-secondary btn-rounded waves-effect waves-light" type="button">
                                                 Voltar
                                             </button>
                                         </div>
                                     </div>
-                                    <div class="col-md-3 col-xl-6 col-6  col-sm-2">
+                                    <div class="col-md-3 col-xl-5 col-6  col-sm-2">
                                         <div class="form-group text-right mb-0">
                                         </div>
                                     </div>
@@ -368,7 +368,7 @@
             </div>
         </div>
 
-        <footer class="footer">
+        <footer class="footer"  style="background-color: transparent;">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12 text-center" style="font-size: 0.675rem;">
@@ -478,7 +478,6 @@
         </div>
     </div>
 
-    <div class="account-pages my-5 pt-5"></div>
 
     <script src="~/js/vendor.min.js"></script>
     <script src="~/js/app.min.js"></script>

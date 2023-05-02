@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Wytor\\Desktop\\Teste\\PFV.Quotation.Evaluation.csproj": {}
+    "C:\\Users\\Wytor\\Desktop\\ary\\GitHub\\pfv-teste\\PFV.Quotation.Evaluation.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Wytor\\Desktop\\Teste\\PFV.Quotation.Evaluation.csproj": {
+    "C:\\Users\\Wytor\\Desktop\\ary\\GitHub\\pfv-teste\\PFV.Quotation.Evaluation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Wytor\\Desktop\\Teste\\PFV.Quotation.Evaluation.csproj",
+        "projectUniqueName": "C:\\Users\\Wytor\\Desktop\\ary\\GitHub\\pfv-teste\\PFV.Quotation.Evaluation.csproj",
         "projectName": "PFV.Quotation.Evaluation",
-        "projectPath": "C:\\Users\\Wytor\\Desktop\\Teste\\PFV.Quotation.Evaluation.csproj",
+        "projectPath": "C:\\Users\\Wytor\\Desktop\\ary\\GitHub\\pfv-teste\\PFV.Quotation.Evaluation.csproj",
         "packagesPath": "C:\\Users\\Wytor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Wytor\\Desktop\\Teste\\obj\\",
+        "outputPath": "C:\\Users\\Wytor\\Desktop\\ary\\GitHub\\pfv-teste\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Wytor\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,7 +43,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -55,7 +56,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
